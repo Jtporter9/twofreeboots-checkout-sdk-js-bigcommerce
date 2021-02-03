@@ -1,0 +1,48 @@
+{
+  "name": "@bigcommerce/checkout-sdk-example",
+  "version": "0.1.0",
+  "description": "BigCommerce Checkout JavaScript SDK Example",
+  "license": "MIT",
+  "private": true,
+  "main": "dist/main.js",
+  "files": [
+    "dist/"
+  ],
+  "engines": {
+    "node": "^6.10.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/bigcommerce/checkout-sdk-js-example.git"
+  },
+  "author": "BigCommerce",
+  "bugs": {
+    "url": "https://github.com/bigcommerce/checkout-sdk-js-example/issues"
+  },
+  "homepage": "https://github.com/bigcommerce/checkout-sdk-js-example",
+  "scripts": {
+    "dev": "webpack --mode development --watch",
+    "dev:server": "http-server dist",
+    "build": "webpack --mode production"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.5.5",
+    "@babel/preset-env": "^7.5.5",
+    "@babel/preset-react": "^7.0.0",
+    "@bigcommerce/checkout-sdk": "^1.30.0",
+    "accounting": "^0.4.1",
+    "babel-loader": "^8.0.6",
+    "classnames": "^2.2.6",
+    "css-loader": "^3.1.0",
+    "http-server": "^0.12.3",
+    "lodash": "^4.17.15",
+    "node-sass": "^4.9.0",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "react-text-mask": "^5.4.3",
+    "sass-loader": "^7.1.0",
+    "style-loader": "^0.23.1",
+    "webpack": "^4.38.0",
+    "webpack-cli": "^3.3.6"
+  }
+}
